@@ -18,4 +18,3 @@ def get_message(message):
         }
     }
     emit('send_message', broadcast_message, json=True, broadcast=True)
-
